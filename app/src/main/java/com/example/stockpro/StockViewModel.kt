@@ -11,42 +11,48 @@ class StockViewModel : ViewModel() {
             nombre = "Teclado Mecánico",
             descripcion = "Teclado para estaciones de trabajo.",
             precio = 45.50,
-            stockActual = 8
+            stockActual = 8,
+            imagenResId = R.drawable.teclado
         ),
         Producto(
             id = 2,
             nombre = "Mouse Inalámbrico",
             descripcion = "Mouse ergonómico con conexión USB.",
             precio = 18.75,
-            stockActual = 3
+            stockActual = 3,
+            imagenResId = R.drawable.mouse
         ),
         Producto(
             id = 3,
             nombre = "Monitor 24 pulgadas",
             descripcion = "Monitor LED Full HD para oficina.",
             precio = 160.00,
-            stockActual = 5
+            stockActual = 5,
+            imagenResId = R.drawable.monitor
         ),
         Producto(
             id = 4,
             nombre = "Cable HDMI",
             descripcion = "Cable HDMI de 2 metros.",
             precio = 7.25,
-            stockActual = 0
+            stockActual = 0,
+            imagenResId = R.drawable.hdmi
         ),
         Producto(
             id = 5,
             nombre = "Disco SSD 500GB",
             descripcion = "Unidad de almacenamiento sólido.",
             precio = 58.90,
-            stockActual = 4
+            stockActual = 4,
+            imagenResId = R.drawable.ssd
         ),
         Producto(
             id = 6,
             nombre = "Router WiFi",
             descripcion = "Router inalámbrico para red de oficina.",
             precio = 72.00,
-            stockActual = 10
+            stockActual = 10,
+            imagenResId = R.drawable.router
         )
     )
 
