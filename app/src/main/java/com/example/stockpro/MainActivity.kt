@@ -96,30 +96,3 @@ fun StockProApp() {
     }
 }
 
-@Composable
-fun PantallaReporteFinanciero(navController: NavHostController, viewModel: StockViewModel) {
-    TODO("Not yet implemented")
-}
-
-@Composable
-fun PantallaEditarStock(
-    navController: NavHostController,
-    viewModel: StockViewModel,
-    productoId: Int
-) {
-    TODO("Not yet implemented")
-}
-
-@Composable
-fun PantallaCatalogoInventario(
-    navController: NavHostController,
-    viewModel: StockViewModel,
-    nombreOperario: String
-) {
-    TODO("Not yet implemented")
-}
-
-@Composable
-fun PantallaIngreso(navController: NavHostController) {
-    TODO("Not yet implemented")
-}
